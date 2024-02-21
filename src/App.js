@@ -10,7 +10,7 @@ function App() {
   const [messages, setMessages] = useState([])
   const [senderMessage, setSenderMessage] = useState('')
   const senderDetails = {
-    name: "Sakthi",
+    name: "Sakthi Jeyan",
     imageName: "./pc.jpg",
     classname: "left",
     chatBoxName: "chatBox"
@@ -41,7 +41,7 @@ function App() {
   const [receiverVisible, setReceiverVisible] = useState(false)
   const [receiverMessage, setReceiverMessage] = useState('')
   const receiverDetails = {
-    name: "Jeyan",
+    name: "Jeyan Sakthi",
     imageName: "./sj.jpg",
     classname: "right",
     chatBoxName: "chatBox"
