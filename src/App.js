@@ -33,7 +33,6 @@ function App() {
   const addMessage = async (message, infoSend, infoReceive) => {
     const id = messages.length ? messages[messages.length - 1].id + 1 : 1;
     const addNewMessage = { message, id, infoSend, infoReceive };
-    console.log(addNewMessage)
     const listMessages = [...messages, addNewMessage];
     setMessages(listMessages)
   }
