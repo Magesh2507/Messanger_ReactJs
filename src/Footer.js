@@ -10,7 +10,6 @@ const Footer = ({ person, senderMessage, setSenderMessage, visible, setVisible, 
         if (e.key === 'Enter') {
             const targetId = sendBtnId;
             const targetElement = document.getElementById(targetId);
-            console.log(targetElement)
             targetElement.click();
         }
     }
